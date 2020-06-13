@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<h2>Javascript string method</h2>
+<body>
+<p>Replace Microsoft with W3school</p>
+<button onclick="myFunction()">Click me!</button>
+<p id="demo">Please visit Microsoft</p>
+<script>
+    function myFunction(){
+        var str = document.getElementById("demo").innerHTML;
+        var txt = str.replace("Microsoft", "W3school");
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>
